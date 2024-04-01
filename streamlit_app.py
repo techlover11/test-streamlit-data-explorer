@@ -22,7 +22,7 @@ df.year = df.year.astype('int')
 # Input widgets
 ## Genres selection
 genres_list = df.genre.unique()
-genres_selection = st.multiselect('Select genre(s)', genres_list, ['Action', 'Adventure', 'Biography', 'Comedy', 'Drama', 'Horror'])
+genres_selection = st.multiselect('Select genre(s!)', genres_list, ['Action', 'Adventure', 'Biography', 'Comedy', 'Drama', 'Horror'])
 
 ## Year selection
 year_list = df.year.unique()
